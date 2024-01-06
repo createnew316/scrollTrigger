@@ -3,30 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
-    width: 100%;
+html , body{
     height: 100%;
-}
-body{
-    overflow-x: hidden;
-}
+    width: 100%;
+}/*
 #page1{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #page2{
     width: 100%;
     height: 100%;
-    background-color: rgb(133, 213, 248);
-}
-#page2 h1{
-    font-size: 42vw;
-    font-weight: 500;
-    font-family: Gilroy;
+    background-color: rgb(188, 27, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #page3{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(249, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(48, 8, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(24, 24, 24),rgb(184, 96, 96));
+}*/
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 205, 165);
+}
+#page2 img{
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(121, 78, 22);
 }
